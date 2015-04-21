@@ -10,3 +10,12 @@ address{
     width: 180px;
     height: 180px;
 }
+
+.languages{
+    float: right;
+}
+
+.languages img{
+    width: 25px;
+    margin: 10px;
+}
