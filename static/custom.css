@@ -1,0 +1,8 @@
+a {
+    color: cornflowerblue !important;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: deepskyblue !important;
+  }
