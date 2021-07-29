@@ -1,8 +1,7 @@
-a {
+nav a, footer a {
     color: cornflowerblue !important;
-    text-decoration: none;
   }
   
-  a:hover {
+nav a:hover, footer a:hover {
     color: deepskyblue !important;
   }
