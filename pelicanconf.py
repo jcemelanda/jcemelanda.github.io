@@ -31,7 +31,7 @@ SOCIAL = ()
 
 DEFAULT_PAGINATION = 10
 
-THEME = "Flex"
+THEME = os.path.join(BASEDIR, "Flex")
 
 TYPOGRIFY = True
 
@@ -49,10 +49,10 @@ MENUITEMS = (
     ("Tags", "/tags.html"),
 )
 
-# Enable i18n plugin.
-PLUGINS = ["i18n_subsites"]
-# Enable Jinja2 i18n extension used to parse translations.
-JINJA_ENVIRONMENT = {"extensions": ["jinja2.ext.i18n"]}
+# # Enable i18n plugin.
+# PLUGINS = ["i18n_subsites"]
+# # Enable Jinja2 i18n extension used to parse translations.
+# JINJA_ENVIRONMENT = {"extensions": ["jinja2.ext.i18n"]}
 
 # Default theme language.
 I18N_TEMPLATES_LANG = "en"
@@ -84,5 +84,6 @@ EXTRA_PATH_METADATA = {
 
 CUSTOM_CSS = "static/custom.css"
 
+DISQUS_SITENAME = "jcemelanda-2"
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
