@@ -31,6 +31,8 @@ SOCIAL = ()
 
 DEFAULT_PAGINATION = 10
 
+GOOGLE_TAG = "G-MZL8M203FJ"
+
 THEME = os.path.join(BASEDIR, "Flex")
 
 TYPOGRIFY = True
