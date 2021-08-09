@@ -24,7 +24,7 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (("Want to contract me?", "https://jcemelanda.github.io/curriculum/"),)
+LINKS = (("Want to hire me?", "https://jcemelanda.github.io/curriculum/"),)
 
 # Social widget
 SOCIAL = ()
