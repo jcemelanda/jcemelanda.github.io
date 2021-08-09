@@ -1,5 +1,148 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Julio Cesar Eiras Melanda</title><link href="https://jcemelanda.github.io/" rel="alternate"></link><link href="https://jcemelanda.github.io/feeds/all.atom.xml" rel="self"></link><id>https://jcemelanda.github.io/</id><updated>2021-07-31T06:00:00+02:00</updated><entry><title>Python, my favorite programming language</title><link href="https://jcemelanda.github.io/python-favorite.html" rel="alternate"></link><published>2021-07-31T06:00:00+02:00</published><updated>2021-07-31T06:00:00+02:00</updated><author><name>Julio Melanda</name></author><id>tag:jcemelanda.github.io,2021-07-31:/python-favorite.html</id><summary type="html">&lt;p&gt;A few ideas and thoughts on why Python is my favorite&amp;nbsp;language&lt;/p&gt;</summary><content type="html">&lt;p&gt;Probably anyone that knows me knows I like Python, it&amp;#8217;s not really something new, as I have thousands of t-shirts from Python events I&amp;#8217;ve been all over Brazil from 2015 to&amp;nbsp;2019.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Julio Cesar Eiras Melanda</title><link href="https://jcemelanda.github.io/" rel="alternate"></link><link href="https://jcemelanda.github.io/feeds/all.atom.xml" rel="self"></link><id>https://jcemelanda.github.io/</id><updated>2021-08-10T00:00:00+02:00</updated><entry><title>Python Basics</title><link href="https://jcemelanda.github.io/python-basics.html" rel="alternate"></link><published>2021-08-10T00:00:00+02:00</published><updated>2021-08-10T00:00:00+02:00</updated><author><name>Julio Melanda</name></author><id>tag:jcemelanda.github.io,2021-08-10:/python-basics.html</id><summary type="html">&lt;p&gt;Hello, this is a quick introduction to Python programing&amp;nbsp;language.&lt;/p&gt;</summary><content type="html">&lt;p&gt;Hello!&lt;/p&gt;
+&lt;p&gt;I think it could be a good thing to start with a set of posts teaching the very basics of&amp;nbsp;Python.&lt;/p&gt;
+&lt;p&gt;I won&amp;#8217;t teach you to install it because it&amp;#8217;s quite straightforward and if will be a different process for each operating system. So, just click here to find out how to &lt;a href="https://wiki.python.org/moin/BeginnersGuide/Download"&gt;install python to your system&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;After having it installed, you&amp;#8217;re going to need a nice code editor to use while learning. I recommend &lt;a href="https://code.visualstudio.com/download"&gt;VSCode&lt;/a&gt;. If you&amp;#8217;re already used to another code/text editor, feel free to use it&amp;nbsp;instead.&lt;/p&gt;
+&lt;p&gt;Open the terminal in your editor and run &lt;code&gt;python&lt;/code&gt;. That should be enough to get you to the interactive shell of python if the binaries are correctly installed/referenced in the&amp;nbsp;system.&lt;/p&gt;
+&lt;p&gt;You should see something that looks like&amp;nbsp;this&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="n"&gt;Python&lt;/span&gt; &lt;span class="mf"&gt;3.9.6&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;default&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;Jul&lt;/span&gt; &lt;span class="mi"&gt;16&lt;/span&gt; &lt;span class="mi"&gt;2021&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;00&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;00&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;00&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; 
+&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;GCC&lt;/span&gt; &lt;span class="mf"&gt;11.1.1&lt;/span&gt; &lt;span class="mi"&gt;20210531&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;Red&lt;/span&gt; &lt;span class="n"&gt;Hat&lt;/span&gt; &lt;span class="mf"&gt;11.1.1&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="p"&gt;)]&lt;/span&gt; &lt;span class="n"&gt;on&lt;/span&gt; &lt;span class="n"&gt;linux&lt;/span&gt;
+&lt;span class="n"&gt;Type&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;help&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;copyright&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;credits&amp;quot;&lt;/span&gt; &lt;span class="ow"&gt;or&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;license&amp;quot;&lt;/span&gt; &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;more&lt;/span&gt; &lt;span class="n"&gt;information&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;
+&lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Note that the &lt;code&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/code&gt; are the cursor where you can enter new&amp;nbsp;commands.&lt;/p&gt;
+&lt;h2&gt;Hello&amp;nbsp;World&lt;/h2&gt;
+&lt;p&gt;As every noteworthy beginner&amp;#8217;s guide we should start with the most loved and well known &lt;code&gt;Hello World&lt;/code&gt; example.&lt;/p&gt;
+&lt;p&gt;In your python shell&amp;nbsp;type&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;Hello World&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;And hit enter. In the python shell it should look like&amp;nbsp;this:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;Hello World&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;Hello&lt;/span&gt; &lt;span class="n"&gt;World&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;So, from now on, when the code is expected to be typed in the &lt;code&gt;Python Shell&lt;/code&gt; we&amp;#8217;ll use the cursors to help you identifying it, as in the example&amp;nbsp;above.&lt;/p&gt;
+&lt;h2&gt;Getting&amp;nbsp;Input&lt;/h2&gt;
+&lt;p&gt;The same way you can print data to the screen, you can ask for data from the user. Usually this data would be stored in a variable, which in python is dynamically created, so, no declaration&amp;nbsp;needed.&lt;/p&gt;
+&lt;p&gt;Let&amp;#8217;s make a small scrip that asks for your age and prints it back to the&amp;nbsp;screen.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;age&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nb"&gt;input&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;Type your age here =&amp;gt; &amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;Type&lt;/span&gt; &lt;span class="n"&gt;your&lt;/span&gt; &lt;span class="n"&gt;age&lt;/span&gt; &lt;span class="n"&gt;here&lt;/span&gt; &lt;span class="o"&gt;=&amp;gt;&lt;/span&gt; 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Here you can type your age and hit &lt;code&gt;enter&lt;/code&gt;, that will be read as a text, and then you can print it to the&amp;nbsp;console.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;age&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nb"&gt;input&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;Type your age here =&amp;gt; &amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;Type&lt;/span&gt; &lt;span class="n"&gt;your&lt;/span&gt; &lt;span class="n"&gt;age&lt;/span&gt; &lt;span class="n"&gt;here&lt;/span&gt; &lt;span class="o"&gt;=&amp;gt;&lt;/span&gt; &lt;span class="mi"&gt;34&lt;/span&gt;
+&lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;Your age is&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;age&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;Your&lt;/span&gt; &lt;span class="n"&gt;age&lt;/span&gt; &lt;span class="ow"&gt;is&lt;/span&gt; &lt;span class="mi"&gt;34&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h2&gt;Running a Python&amp;nbsp;Script&lt;/h2&gt;
+&lt;p&gt;Now that we know how to get data from the user and print it in the screen we can already create a simple script based in our small&amp;nbsp;code.&lt;/p&gt;
+&lt;p&gt;In your editor, create a new file called &lt;code&gt;parrot.py&lt;/code&gt;. We&amp;#8217;ll first greet the user with a &lt;code&gt;print&lt;/code&gt; statement.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;Welcome to parrot app. It will repeat whatever you type below&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Now we&amp;#8217;ll get the input into a variable that we&amp;#8217;ll call &lt;code&gt;text&lt;/code&gt;.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="n"&gt;text&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nb"&gt;input&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;=&amp;gt; &amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Finally we print the text back to the&amp;nbsp;screen.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;The parrot says&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;text&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;This is the full content you should have in your&amp;nbsp;file&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;Welcome to parrot app. It will repeat whatever you type below&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;text&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nb"&gt;input&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;=&amp;gt; &amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;The parrot says&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;text&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Now, in the terminal, exit the &lt;code&gt;python shell&lt;/code&gt; with &lt;code&gt;exit(0)&lt;/code&gt; or &lt;code&gt;CTRL+D&lt;/code&gt;. In the regular terminal now you should&amp;nbsp;run &lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;python parrot.py
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;This should ask for some text, and after you type and hit enter it should print it back to you. Something like&amp;nbsp;this&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;$ python parrot.py
+Welcome to parrot app. It will repeat whatever you &lt;span class="nb"&gt;type&lt;/span&gt; &lt;span class="nv"&gt;below&lt;/span&gt;
+&lt;span class="o"&gt;=&lt;/span&gt;&amp;gt; Hello World!
+The parrot says Hello World!
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;And those were your first steps into Python. I hope you enjoyed this small tutorial and soon I&amp;#8217;ll continue with this series teaching more python&amp;nbsp;basics.&lt;/p&gt;
+&lt;p&gt;Please let me know in the comments what you think and what else you would like to see in this blog&amp;nbsp;:D&lt;/p&gt;
+&lt;p&gt;See&amp;nbsp;ya!&lt;/p&gt;</content><category term="Python"></category><category term="start"></category><category term="basics"></category></entry><entry><title>Noções básicas de Python</title><link href="https://jcemelanda.github.io/python-basics-pt_BR.html" rel="alternate"></link><published>2021-08-10T00:00:00+02:00</published><updated>2021-08-10T00:00:00+02:00</updated><author><name>Julio Melanda</name></author><id>tag:jcemelanda.github.io,2021-08-10:/python-basics-pt_BR.html</id><summary type="html">&lt;p&gt;Olá, esta é uma introdução rápida à linguagem de programação&amp;nbsp;Python.&lt;/p&gt;</summary><content type="html">&lt;p&gt;Olá!&lt;/p&gt;
+&lt;p&gt;Acho que poderia ser bom coisa começar com uma série de postagens ensinando o básico do&amp;nbsp;Python.&lt;/p&gt;
+&lt;p&gt;Não vou ensiná-lo a instalá-lo porque é bastante simples e será um processo diferente para cada sistema operacional. Portanto, clique aqui para descobrir como &lt;a href="https://wiki.python.org/moin/BeginnersGuide/Download"&gt;instalar o python em seu sistema&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Depois de instalá-lo, você precisará de um bom editor de código para usar enquanto aprende. Eu recomendo &lt;a href="https://code.visualstudio.com/download"&gt;VSCode&lt;/a&gt;. Se você já estiver acostumado com outro editor de código/texto, sinta-se à vontade para&amp;nbsp;usá-lo.&lt;/p&gt;
+&lt;p&gt;Abra o terminal em seu editor e execute &lt;code&gt;python&lt;/code&gt;. Isso deve ser o suficiente para levá-lo ao shell interativo do python se os binários estiverem instalados/referenciados corretamente no&amp;nbsp;sistema.&lt;/p&gt;
+&lt;p&gt;Você deve ver algo parecido com&amp;nbsp;isto&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="n"&gt;Python&lt;/span&gt; &lt;span class="mf"&gt;3.9.6&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;default&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;Jul&lt;/span&gt; &lt;span class="mi"&gt;16&lt;/span&gt; &lt;span class="mi"&gt;2021&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;00&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;00&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;00&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; 
+&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;GCC&lt;/span&gt; &lt;span class="mf"&gt;11.1.1&lt;/span&gt; &lt;span class="mi"&gt;20210531&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;Red&lt;/span&gt; &lt;span class="n"&gt;Hat&lt;/span&gt; &lt;span class="mf"&gt;11.1.1&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="p"&gt;)]&lt;/span&gt; &lt;span class="n"&gt;on&lt;/span&gt; &lt;span class="n"&gt;linux&lt;/span&gt;
+&lt;span class="n"&gt;Type&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;help&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;copyright&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;credits&amp;quot;&lt;/span&gt; &lt;span class="ow"&gt;or&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;license&amp;quot;&lt;/span&gt; &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;more&lt;/span&gt; &lt;span class="n"&gt;information&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;
+&lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Observe que &lt;code&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/code&gt; são o cursor onde você pode inserir novos&amp;nbsp;comandos.&lt;/p&gt;
+&lt;h2&gt;Olá,&amp;nbsp;Mundo&lt;/h2&gt;
+&lt;p&gt;Como todo guia para iniciantes notável, devemos começar com o exemplo mais amado e conhecido do &lt;code&gt;Olá, Mundo&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Em seu shell python&amp;nbsp;digite&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;Olá, Mundo&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;E aperte enter. No shell do python, deve mostrar algo&amp;nbsp;assim:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;Olá, Mundo&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;Olá&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;Mundo&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Portanto, a partir de agora, quando se espera que o código seja digitado no &lt;code&gt;Python Shell&lt;/code&gt; usaremos os cursores para ajudá-lo a identificá-lo, como no exemplo&amp;nbsp;acima.&lt;/p&gt;
+&lt;h2&gt;Obtendo&amp;nbsp;informações&lt;/h2&gt;
+&lt;p&gt;Da mesma forma que você pode mostrar dados na tela, você pode solicitar dados ao usuário. Normalmente, esses dados são armazenados em uma variável, que em python é criada dinamicamente, portanto, nenhuma declaração é&amp;nbsp;necessária.&lt;/p&gt;
+&lt;p&gt;Vamos fazer um pequeno script que pergunta sua idade e imprime de volta na&amp;nbsp;tela.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;idade&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nb"&gt;input&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;Digite sua idade aqui =&amp;gt; &amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;Digite&lt;/span&gt; &lt;span class="n"&gt;sua&lt;/span&gt; &lt;span class="n"&gt;idade&lt;/span&gt; &lt;span class="n"&gt;aqui&lt;/span&gt; &lt;span class="o"&gt;=&amp;gt;&lt;/span&gt; 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Aqui você pode digitar sua idade e clicar em &lt;code&gt;enter&lt;/code&gt;, que será lido como um texto, e então você pode imprimi-lo no&amp;nbsp;console.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;idade&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nb"&gt;input&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;Digite sua idade aqui =&amp;gt; &amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;Digite&lt;/span&gt; &lt;span class="n"&gt;sua&lt;/span&gt; &lt;span class="n"&gt;idade&lt;/span&gt; &lt;span class="n"&gt;aqui&lt;/span&gt; &lt;span class="o"&gt;=&amp;gt;&lt;/span&gt; &lt;span class="mi"&gt;34&lt;/span&gt;
+&lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;Sua idade é&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;idade&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;Sua&lt;/span&gt; &lt;span class="n"&gt;idade&lt;/span&gt; &lt;span class="n"&gt;é&lt;/span&gt; &lt;span class="mi"&gt;34&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h2&gt;Executando um script&amp;nbsp;Python&lt;/h2&gt;
+&lt;p&gt;Agora que sabemos como pegar os dados do usuário e imprimi-los na tela, já podemos criar um script simples baseado em nosso pequeno&amp;nbsp;código.&lt;/p&gt;
+&lt;p&gt;Em seu editor, crie um novo arquivo chamado &lt;code&gt;papagaio.py&lt;/code&gt;. Primeiro, saudaremos o usuário com uma instrução &lt;code&gt;print&lt;/code&gt;.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;Bem vindo ao aplicativo papagaio. Ele vai repetir tudo que você digitar abaixo&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Agora vamos obter a entrada em uma variável que chamaremos de &lt;code&gt;texto&lt;/code&gt;.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="n"&gt;texto&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nb"&gt;input&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;=&amp;gt; &amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Finalmente, imprimimos o texto de volta na&amp;nbsp;tela.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;O papagaio diz&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;texto&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Este é o conteúdo completo que você deve ter em seu&amp;nbsp;arquivo&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;Bem vindo ao aplicativo papagaio. Ele vai repetir tudo que você digitar abaixo&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;texto&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nb"&gt;input&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;=&amp;gt; &amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;O papagaio diz&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;texto&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Agora, no terminal, saia do &lt;code&gt;python shell&lt;/code&gt; com&lt;code&gt;exit (0)&lt;/code&gt;ou&lt;code&gt;CTRL + D&lt;/code&gt;. No terminal regular agora você deve&amp;nbsp;executar&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;`shellscript
+python papagaio.py&lt;/code&gt; `&lt;/p&gt;
+&lt;p&gt;Isso deve pedir algum texto, e depois que você digitar e clicar em Enter, ele deverá imprimi-lo de volta para você. Algo&amp;nbsp;assim&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;$ python papagaio.py
+Bem vindo ao aplicativo papagaio. Ele vai repetir tudo que você digitar &lt;span class="nv"&gt;abaixo&lt;/span&gt;
+&lt;span class="o"&gt;=&lt;/span&gt;&amp;gt; Olá, Mundo!
+O papagaio diz Olá, Mundo!
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;E esses foram seus primeiros passos em Python. Espero que tenham gostado deste pequeno tutorial e em breve continuarei com esta série ensinando mais noções básicas de&amp;nbsp;python.&lt;/p&gt;
+&lt;p&gt;Deixe-me saber nos comentários o que você pensa e o que mais gostaria de ver neste blog:&amp;nbsp;D&lt;/p&gt;
+&lt;p&gt;Até&amp;nbsp;mais!&lt;/p&gt;</content><category term="Python"></category><category term="start"></category><category term="basics"></category></entry><entry><title>Python, my favorite programming language</title><link href="https://jcemelanda.github.io/python-favorite.html" rel="alternate"></link><published>2021-07-31T06:00:00+02:00</published><updated>2021-07-31T06:00:00+02:00</updated><author><name>Julio Melanda</name></author><id>tag:jcemelanda.github.io,2021-07-31:/python-favorite.html</id><summary type="html">&lt;p&gt;A few ideas and thoughts on why Python is my favorite&amp;nbsp;language&lt;/p&gt;</summary><content type="html">&lt;p&gt;Probably anyone that knows me knows I like Python, it&amp;#8217;s not really something new, as I have thousands of t-shirts from Python events I&amp;#8217;ve been all over Brazil from 2015 to&amp;nbsp;2019.&lt;/p&gt;
 &lt;p&gt;So, I decided to try to put in words why I like it so much and it&amp;#8217;s so important in my life and my&amp;nbsp;career.&lt;/p&gt;
 &lt;h3&gt;Simplicity&lt;/h3&gt;
 &lt;p&gt;I think one of the first things that come to someone&amp;#8217;s mind when they think of Python is how simple it is. Python syntax is so straightforward that many times reading the code feels like reading&amp;nbsp;English.&lt;/p&gt;
