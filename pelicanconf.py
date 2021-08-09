@@ -31,8 +31,6 @@ SOCIAL = ()
 
 DEFAULT_PAGINATION = 10
 
-GOOGLE_TAG = "G-MZL8M203FJ"
-
 THEME = os.path.join(BASEDIR, "Flex")
 
 TYPOGRIFY = True
@@ -67,10 +65,13 @@ THEME_COLOR_AUTO_DETECT_BROWSER_PREFERENCE = True
 THEME_COLOR_ENABLE_USER_OVERRIDE = True
 
 DATE_FORMATS = {
-    "en": "%B %d, %Y",
+    "en": "%m-%d-%Y",
+    "pt_BR": "%d-%m-%Y",
 }
 BROWSER_COLOR = "#666666"
 PYGMENTS_STYLE = "github"
+PYGMENTS_STYLE_DARK = "vim"
+
 
 SOCIAL = (
     ("github", "https://github.com/jcemelanda"),
@@ -86,6 +87,5 @@ EXTRA_PATH_METADATA = {
 
 CUSTOM_CSS = "static/custom.css"
 
-DISQUS_SITENAME = "jcemelanda-2"
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True

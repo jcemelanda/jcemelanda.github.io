@@ -1,8 +1,156 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Julio Cesar Eiras Melanda</title><link href="http://jcemelanda.github.io/" rel="alternate"></link><link href="http://jcemelanda.github.io/feeds/all.atom.xml" rel="self"></link><id>http://jcemelanda.github.io/</id><updated>2021-07-30T00:00:00+02:00</updated><entry><title>Hello World</title><link href="http://jcemelanda.github.io/hello-world.html" rel="alternate"></link><published>2021-07-30T00:00:00+02:00</published><updated>2021-07-30T00:00:00+02:00</updated><author><name>Julio Melanda</name></author><id>tag:jcemelanda.github.io,2021-07-30:/hello-world.html</id><summary type="html">&lt;p&gt;Hello, this is my first post here in this&amp;nbsp;blog.&lt;/p&gt;</summary><content type="html">&lt;p&gt;Hi!&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Julio Cesar Eiras Melanda</title><link href="https://jcemelanda.github.io/" rel="alternate"></link><link href="https://jcemelanda.github.io/feeds/all.atom.xml" rel="self"></link><id>https://jcemelanda.github.io/</id><updated>2021-07-31T06:00:00+02:00</updated><entry><title>Python, my favorite programming language</title><link href="https://jcemelanda.github.io/python-favorite.html" rel="alternate"></link><published>2021-07-31T06:00:00+02:00</published><updated>2021-07-31T06:00:00+02:00</updated><author><name>Julio Melanda</name></author><id>tag:jcemelanda.github.io,2021-07-31:/python-favorite.html</id><summary type="html">&lt;p&gt;A few ideas and thoughts on why Python is my favorite&amp;nbsp;language&lt;/p&gt;</summary><content type="html">&lt;p&gt;Probably anyone that knows me knows I like Python, it&amp;#8217;s not really something new, as I have thousands of t-shirts from Python events I&amp;#8217;ve been all over Brazil from 2015 to&amp;nbsp;2019.&lt;/p&gt;
+&lt;p&gt;So, I decided to try to put in words why I like it so much and it&amp;#8217;s so important in my life and my&amp;nbsp;career.&lt;/p&gt;
+&lt;h3&gt;Simplicity&lt;/h3&gt;
+&lt;p&gt;I think one of the first things that come to someone&amp;#8217;s mind when they think of Python is how simple it is. Python syntax is so straightforward that many times reading the code feels like reading&amp;nbsp;English.&lt;/p&gt;
+&lt;p&gt;Take this for&amp;nbsp;example:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="n"&gt;numbers&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+
+&lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;number&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;numbers&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+    &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;number&lt;/span&gt; &lt;span class="o"&gt;&amp;gt;&lt;/span&gt; &lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+        &lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;number&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;It&amp;#8217;s just&amp;nbsp;beautiful.&lt;/p&gt;
+&lt;h3&gt;Rich options of 3rd party&amp;nbsp;libraries&lt;/h3&gt;
+&lt;p&gt;It&amp;#8217;s common to see jokes that in python you can do whatever you want by just importing a&amp;nbsp;library.&lt;/p&gt;
+&lt;p&gt;It&amp;#8217;s surely not as easy, but definitely you have a huge number of libraries that already do or helps you doing almost everything you want&amp;nbsp;to.&lt;/p&gt;
+&lt;p&gt;Some of the most amazing libraries I have used&amp;nbsp;are:&lt;/p&gt;
+&lt;h4&gt;requests&lt;/h4&gt;
+&lt;p&gt;A library that makes it super easy and readable to call URLs using regular &lt;span class="caps"&gt;HTTP&lt;/span&gt; verbs like &lt;span class="caps"&gt;GET&lt;/span&gt;, &lt;span class="caps"&gt;POST&lt;/span&gt;, &lt;span class="caps"&gt;PUT&lt;/span&gt;, &lt;span class="caps"&gt;PATCH&lt;/span&gt; and &lt;span class="caps"&gt;DELETE&lt;/span&gt;. Here are some ecamples of how to call&amp;nbsp;it.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="n"&gt;requests&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;get&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;test.com&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;requests&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;post&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;test.com&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;data&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h4&gt;django&lt;/h4&gt;
+&lt;p&gt;Django is a full featured web framework that allows you to create web applications with an inspiration in the &lt;span class="caps"&gt;MVC&lt;/span&gt; (Model-View-Controller) application architecture, (&lt;span class="caps"&gt;MVT&lt;/span&gt; in Django - Models, Views and templates). It has a great &lt;span class="caps"&gt;ORM&lt;/span&gt; that lets you create and control relational databases and their tables using Python classes for Models. Besides that it allows you to query the data using the model instances in a really simple way. It&amp;#8217;s really easy and&amp;nbsp;powerful.&lt;/p&gt;
+&lt;p&gt;Not to mention that Django has an extensible admin interface that uses this same model classes to allow &lt;span class="caps"&gt;CRUD&lt;/span&gt; operations and the management of the data in your&amp;nbsp;application.&lt;/p&gt;
+&lt;p&gt;A simple example of the &lt;span class="caps"&gt;ORM&lt;/span&gt;&amp;nbsp;use.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="c1"&gt;# Given a model User you can filter the users by a given name like&lt;/span&gt;
+&lt;span class="n"&gt;User&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;objects&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;filter&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;name&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;Mark&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h4&gt;pygame&lt;/h4&gt;
+&lt;p&gt;Pygame is a simple &lt;span class="caps"&gt;SDL&lt;/span&gt; game engine. You need to control basically everything, even the flow of the game loop, but that doesn&amp;#8217;t make it a bad engine, actually that makes you understand in a much deeper level how a game works, the control of printing the images on the screen, the sprites animation and even&amp;nbsp;collision.&lt;/p&gt;
+&lt;p&gt;Surely, Pygame lets you use some libraries for physics and 3D (OpenGL) for example. I myself wrote a small library to help control the camera and make it follow an object&amp;nbsp;smoothly.&lt;/p&gt;
+&lt;p&gt;It&amp;#8217;d be too long to put pygame code here, but I&amp;#8217;ll leave a link to a github repo containing a game I&amp;nbsp;wrote.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/jcemelanda/MathShooter"&gt;Math&amp;nbsp;Shooter&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;Powerful standard&amp;nbsp;library&lt;/h3&gt;
+&lt;p&gt;You may be asking yourself why should I want to make a language more complex bringing so many functionalities into the standard library if we can have tons of libraries that do those things just a &lt;code&gt;import&lt;/code&gt; command away from&amp;nbsp;you.&lt;/p&gt;
+&lt;p&gt;The thing is, managing dependencies can get quite complicated and the standard library have a high degree of optimization as most of it is written in C and works with the Python &lt;span class="caps"&gt;VM&lt;/span&gt; in a lower level than most libraries. That makes it faster in many cases and more&amp;nbsp;efficient.&lt;/p&gt;
+&lt;p&gt;Some of my favorite libraries in the standard library are &lt;code&gt;random&lt;/code&gt;, &lt;code&gt;itertools&lt;/code&gt;, &lt;code&gt;regex&lt;/code&gt;, &lt;code&gt;statistics&lt;/code&gt;, &lt;code&gt;functools&lt;/code&gt; and &lt;code&gt;pickle&lt;/code&gt;.&lt;/p&gt;
+&lt;h3&gt;The zen of&amp;nbsp;Python&lt;/h3&gt;
+&lt;p&gt;If you open a python shell and execute &lt;code&gt;import this&lt;/code&gt; you&amp;#8217;ll see a poem that kind of summarizes the philosophy behind&amp;nbsp;Python.&lt;/p&gt;
+&lt;pre&gt;
+The Zen of Python, by Tim Peters
+
+Beautiful is better than ugly.
+Explicit is better than implicit.
+Simple is better than complex.
+Complex is better than complicated.
+Flat is better than nested.
+Sparse is better than dense.
+Readability counts.
+Special cases aren't special enough to break the rules.
+Although practicality beats purity.
+Errors should never pass silently.
+Unless explicitly silenced.
+In the face of ambiguity, refuse the temptation to guess.
+There should be one-- and preferably only one --obvious way to do it.
+Although that way may not be obvious at first unless you're Dutch.
+Now is better than never.
+Although never is often better than *right* now.
+If the implementation is hard to explain, it's a bad idea.
+If the implementation is easy to explain, it may be a good idea.
+Namespaces are one honking great idea -- let's do more of those!
+&lt;/pre&gt;
+
+&lt;p&gt;Just read it and you&amp;#8217;ll see how those verses can inspire you to write better&amp;nbsp;code.&lt;/p&gt;
+&lt;h3&gt;The Python&amp;nbsp;Community&lt;/h3&gt;
+&lt;p&gt;I met the language in 2007 and fell in love with it, but was in 2015, when I went to my first Python conference that I found out Python is not just a technology. It&amp;#8217;s a community of people that love to share knowledge and that try to make the world a better&amp;nbsp;place. &lt;/p&gt;
+&lt;p&gt;I met some of the best developers I ever dreamed of meeting like David Beazley and Luciano Ramalho and after the conference we&amp;#8217;d go all together to a bar and talk until very late at&amp;nbsp;night.&lt;/p&gt;
+&lt;p&gt;I learned so much and I was able to teach and help to. I got involved with PyLadies and DjangoGirls initiatives and I could inspire people and get inspired by them&amp;nbsp;also.&lt;/p&gt;
+&lt;h3&gt;Finally&lt;/h3&gt;
+&lt;p&gt;Those are just some brief reasons I have Python as my preferred language and I try to apply it everywhere I find it&amp;nbsp;useful.&lt;/p&gt;
+&lt;p&gt;I hope this can inspire you as much as I got inspired myself all this&amp;nbsp;years.&lt;/p&gt;
+&lt;p&gt;Happy coding and please tell me what you think in the&amp;nbsp;comments!&lt;/p&gt;</content><category term="Opinion"></category><category term="python"></category><category term="preferences"></category><category term="stack"></category></entry><entry><title>Python, minha linguagem de programação preferida</title><link href="https://jcemelanda.github.io/python-favorite-pt_BR.html" rel="alternate"></link><published>2021-07-31T06:00:00+02:00</published><updated>2021-07-31T06:00:00+02:00</updated><author><name>Julio Melanda</name></author><id>tag:jcemelanda.github.io,2021-07-31:/python-favorite-pt_BR.html</id><summary type="html">&lt;p&gt;Algumas idéias e pensamentos sobre por que Python é minha linguagem&amp;nbsp;favorita&lt;/p&gt;</summary><content type="html">&lt;p&gt;Provavelmente quem me conhece sabe que gosto de Python, não é realmente algo novo, pois tenho milhares de camisetas de eventos Python que estive em todo o Brasil de 2015 a&amp;nbsp;2019.&lt;/p&gt;
+&lt;p&gt;Então, decidi tentar colocar em palavras porque eu gosto tanto desta linguagem e porque é tão importante na minha vida e na minha&amp;nbsp;carreira.&lt;/p&gt;
+&lt;h3&gt;Simplicidade&lt;/h3&gt;
+&lt;p&gt;Acho que uma das primeiras coisas que vêm à mente de alguém quando pensa em Python é como ele é simples. A sintaxe do Python é tão direta que, muitas vezes, ler o código é como ler em&amp;nbsp;inglês.&lt;/p&gt;
+&lt;p&gt;Veja por&amp;nbsp;exemplo:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="n"&gt;numbers&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+
+&lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;number&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;numbers&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+    &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;number&lt;/span&gt; &lt;span class="o"&gt;&amp;gt;&lt;/span&gt; &lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+        &lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;number&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;É&amp;nbsp;lindo.&lt;/p&gt;
+&lt;h3&gt;Muitas opções de bibliotecas de&amp;nbsp;terceiros&lt;/h3&gt;
+&lt;p&gt;É comum ver piadas que em python você pode fazer o que quiser apenas importando uma&amp;nbsp;biblioteca.&lt;/p&gt;
+&lt;p&gt;Certamente não é tão fácil, mas definitivamente você tem um grande número de bibliotecas que já fazem ou ajudam você a fazer quase tudo o que você&amp;nbsp;deseja.&lt;/p&gt;
+&lt;p&gt;Algumas das bibliotecas mais incríveis que usei&amp;nbsp;são:&lt;/p&gt;
+&lt;h4&gt;requests&lt;/h4&gt;
+&lt;p&gt;Uma biblioteca que torna muito fácil e legível chamar URLs usando verbos &lt;span class="caps"&gt;HTTP&lt;/span&gt; regulares como &lt;span class="caps"&gt;GET&lt;/span&gt;, &lt;span class="caps"&gt;POST&lt;/span&gt;, &lt;span class="caps"&gt;PUT&lt;/span&gt;, &lt;span class="caps"&gt;PATCH&lt;/span&gt; e &lt;span class="caps"&gt;DELETE&lt;/span&gt;. Aqui estão alguns exemplos de como&amp;nbsp;usá-la.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="n"&gt;requests&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;get&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;test.com&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;requests&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;post&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;test.com&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;data&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h4&gt;django&lt;/h4&gt;
+&lt;p&gt;Django é um framework web completo que permite criar aplicações web com inspiração na arquitetura de aplicação &lt;span class="caps"&gt;MVC&lt;/span&gt; (Model-View-Controller), (&lt;span class="caps"&gt;MVT&lt;/span&gt; em Django - Models, Views e templates). Possui um ótimo &lt;span class="caps"&gt;ORM&lt;/span&gt; que permite criar e controlar bancos de dados relacionais e suas tabelas usando classes Python para modelos. Além disso, permite consultar os dados usando as instâncias do modelo de uma forma muito simples. É muito fácil e&amp;nbsp;poderoso.&lt;/p&gt;
+&lt;p&gt;Sem mencionar que o Django tem uma interface de administração extensível que usa essas mesmas classes de modelo para permitir operações &lt;span class="caps"&gt;CRUD&lt;/span&gt; e o gerenciamento dos dados em sua&amp;nbsp;aplicação.&lt;/p&gt;
+&lt;p&gt;Um exemplo simples de uso do &lt;span class="caps"&gt;ORM&lt;/span&gt;.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="c1"&gt;# Given a model User you can filter the users by a given name like&lt;/span&gt;
+&lt;span class="n"&gt;User&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;objects&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;filter&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;name&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;Mark&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h4&gt;pygame&lt;/h4&gt;
+&lt;p&gt;Pygame é uma game engine &lt;span class="caps"&gt;SDL&lt;/span&gt; simples. Você precisa controlar basicamente tudo, até mesmo o fluxo do loop do jogo, mas isso não o torna uma engine ruim, na verdade faz você entender em um nível muito mais profundo como um jogo funciona, o controle de mostrar as imagens na tela , a animação dos sprites e até mesmo a&amp;nbsp;colisão.&lt;/p&gt;
+&lt;p&gt;Certamente, Pygame permite que você use algumas bibliotecas para física e 3D (OpenGL), por exemplo. Eu mesmo escrevi uma pequena biblioteca para ajudar a controlar a câmera e fazê-la seguir um objeto&amp;nbsp;suavemente.&lt;/p&gt;
+&lt;p&gt;Seria muito longo colocar um exemplo de código do pygame aqui, mas deixarei um link para um repositório github contendo um jogo que&amp;nbsp;escrevi.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/jcemelanda/MathShooter"&gt;Math&amp;nbsp;Shooter&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;Bibliotecas Padrão&amp;nbsp;Poderosas&lt;/h3&gt;
+&lt;p&gt;Você pode estar se perguntando por que eu deveria querer fazer uma linguagem mais complexa trazendo tantas funcionalidades para a biblioteca padrão se podemos ter toneladas de bibliotecas que fazem essas coisas apenas um comando &lt;code&gt;import&lt;/code&gt; longe de&amp;nbsp;você.&lt;/p&gt;
+&lt;p&gt;O fato é que gerenciar dependências pode ficar bem complicado e a biblioteca padrão tem um alto grau de otimização, já que a maior parte dela é escrita em C e trabalha com a &lt;span class="caps"&gt;VM&lt;/span&gt; Python em um nível mais baixo do que a maioria das bibliotecas. Isso o torna mais rápido e eficiente em muitos&amp;nbsp;casos.&lt;/p&gt;
+&lt;p&gt;Algumas das minhas bibliotecas favoritas na biblioteca padrão são &lt;code&gt;random&lt;/code&gt;,&lt;code&gt;itertools&lt;/code&gt;, &lt;code&gt;regex&lt;/code&gt;,&lt;code&gt;statistics&lt;/code&gt;, &lt;code&gt;functools&lt;/code&gt; e&lt;code&gt;pickle&lt;/code&gt;.&lt;/p&gt;
+&lt;h3&gt;O &amp;#8220;Zen&amp;#8221; do&amp;nbsp;Python&lt;/h3&gt;
+&lt;p&gt;Se você abrir um shell python e executar &lt;code&gt;import this&lt;/code&gt;, verá um poema que meio que resume a filosofia por trás do&amp;nbsp;Python.&lt;/p&gt;
+&lt;pre&gt;
+O Zen do Python, por Tim Peters, tradução livre
+
+Belo é melhor do que feio.
+Explícito é melhor do que implícito.
+Simples é melhor que complexo.
+Complexo é melhor do que complicado.
+Plano é melhor do que aninhado.
+O esparso é melhor do que o denso.
+A legibilidade conta.
+Casos especiais não são especiais o suficiente para quebrar as regras.
+Embora a praticidade supere a pureza.
+Os erros nunca devem passar silenciosamente.
+A menos que seja explicitamente silenciado.
+Diante da ambigüidade, recuse a tentação de adivinhar.
+Deve haver uma - e de preferência apenas uma - maneira óbvia de fazer as coisas.
+Embora esse caminho possa não ser óbvio no início, a menos que você seja holandês.
+Agora é melhor do que nunca.
+Embora nunca seja sempre melhor do que * agora *.
+Se a implementação for difícil de explicar, é uma má ideia.
+Se a implementação for fácil de explicar, pode ser uma boa ideia.
+Os namespaces são uma ótima ideia - vamos fazer mais disso!
+&lt;/pre&gt;
+
+&lt;p&gt;Basta lê-lo e você verá como esses versos podem inspirá-lo a escrever um código&amp;nbsp;melhor.&lt;/p&gt;
+&lt;h3&gt;A Comunidade&amp;nbsp;Python&lt;/h3&gt;
+&lt;p&gt;Conheci a linguagem em 2007 e me apaixonei por ela, mas foi em 2015, quando fui à minha primeira conferência Python, que descobri que Python não é apenas uma tecnologia. É uma comunidade de pessoas que ama compartilhar conhecimento e tenta fazer do mundo um lugar&amp;nbsp;melhor.&lt;/p&gt;
+&lt;p&gt;Conheci alguns dos melhores desenvolvedores que já sonhei em conhecer, como David Beazley e Luciano Ramalho e depois da conferência íamos todos juntos a um bar e conversávamos até tarde da&amp;nbsp;noite.&lt;/p&gt;
+&lt;p&gt;Eu aprendi muito e pude ensinar e ajudar. Eu me envolvi com as iniciativas PyLadies e DjangoGirls e pude inspirar as pessoas e ser inspirado por elas&amp;nbsp;também.&lt;/p&gt;
+&lt;h3&gt;Finalmente&lt;/h3&gt;
+&lt;p&gt;Esses são apenas alguns breves motivos pelos quais tenho Python como minha linguagem preferida e tentaro aplicá-lo em todos os lugares que considero&amp;nbsp;útil.&lt;/p&gt;
+&lt;p&gt;Espero que isso possa inspirar você tanto quanto eu me inspirei todos esses&amp;nbsp;anos.&lt;/p&gt;
+&lt;p&gt;Boa programação e por favor me diga o que você achou nos&amp;nbsp;comentários!&lt;/p&gt;</content><category term="Opinion"></category><category term="python"></category><category term="preferences"></category><category term="stack"></category></entry><entry><title>Hello World</title><link href="https://jcemelanda.github.io/hello-world.html" rel="alternate"></link><published>2021-07-30T00:00:00+02:00</published><updated>2021-07-30T00:00:00+02:00</updated><author><name>Julio Melanda</name></author><id>tag:jcemelanda.github.io,2021-07-30:/hello-world.html</id><summary type="html">&lt;p&gt;Hello, this is my first post here in this&amp;nbsp;blog.&lt;/p&gt;</summary><content type="html">&lt;p&gt;Hi!&lt;/p&gt;
 &lt;p&gt;It&amp;#8217;s been a really long time since I wrote a blog post and it&amp;#8217;s actually quite harder then I expected to get back to&amp;nbsp;it.&lt;/p&gt;
 &lt;p&gt;In this blog you should expect me to talk about technology. Whatever I find relevant in what I&amp;#8217;m studying, as I love to teach, I&amp;#8217;ll post some tutorials&amp;nbsp;also.&lt;/p&gt;
-&lt;p&gt;I hope you will enjoy the content and feel free to contact me in the comments&amp;nbsp;:D&lt;/p&gt;</content><category term="General"></category><category term="hello"></category><category term="start"></category></entry><entry><title>Olá Mundo</title><link href="http://jcemelanda.github.io/hello-world-pt_BR.html" rel="alternate"></link><published>2021-07-30T00:00:00+02:00</published><updated>2021-07-30T00:00:00+02:00</updated><author><name>Julio Melanda</name></author><id>tag:jcemelanda.github.io,2021-07-30:/hello-world-pt_BR.html</id><summary type="html">&lt;p&gt;Olá, este é meu primeiro post aqui neste&amp;nbsp;blog.&lt;/p&gt;</summary><content type="html">&lt;p&gt;Olá!&lt;/p&gt;
+&lt;p&gt;I hope you will enjoy the content and feel free to contact me in the comments&amp;nbsp;:D&lt;/p&gt;</content><category term="General"></category><category term="hello"></category><category term="start"></category></entry><entry><title>Olá Mundo</title><link href="https://jcemelanda.github.io/hello-world-pt_BR.html" rel="alternate"></link><published>2021-07-30T00:00:00+02:00</published><updated>2021-07-30T00:00:00+02:00</updated><author><name>Julio Melanda</name></author><id>tag:jcemelanda.github.io,2021-07-30:/hello-world-pt_BR.html</id><summary type="html">&lt;p&gt;Olá, este é meu primeiro post aqui neste&amp;nbsp;blog.&lt;/p&gt;</summary><content type="html">&lt;p&gt;Olá!&lt;/p&gt;
 &lt;p&gt;Faz muito tempo desde a última vez que  escrevi um post num blog, e está sendo bem mais complicado do que eu esperava para&amp;nbsp;retomar.&lt;/p&gt;
 &lt;p&gt;Neste blog, você pode esperar que eu fale de tecnologia. Qualquer coisa que eu ache relevante que eu esteja estudando, como eu adoro ensinar, vou postar tutoriais&amp;nbsp;também.&lt;/p&gt;
 &lt;p&gt;Espero que goste do conteúdo e fique à contade para interagir nos comentários&amp;nbsp;:D&lt;/p&gt;</content><category term="General"></category><category term="hello"></category><category term="start"></category></entry></feed>
