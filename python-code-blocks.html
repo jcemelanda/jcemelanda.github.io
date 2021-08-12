@@ -65,27 +65,28 @@
   <meta name="msapplication-TileColor" content="#666666">
 
 <meta name="author" content="Julio Melanda" />
-<meta name="description" content="Hello, this is my first post here in this blog." />
-<meta name="keywords" content="hello, start">
+<meta name="description" content="Hi, let’s talk a bit aboutcode blocks in Python as it’s one of the main characteristics of the language." />
+<meta name="keywords" content="start, basics, code block">
 
-<link rel="alternate" href="https://jcemelanda.github.io/hello-world.html" hreflang="en" />
-<link rel="alternate" href="https://jcemelanda.github.io/hello-world-pt_BR.html" hreflang="pt_BR" />
+<link rel="alternate" href="https://jcemelanda.github.io/python-code-blocks.html" hreflang="en" />
+<link rel="alternate" href="https://jcemelanda.github.io/python-code-blocks-pt_BR.html" hreflang="pt_BR" />
 
 <meta property="og:site_name" content="Julio Cesar Eiras Melanda"/>
-<meta property="og:title" content="Hello World"/>
-<meta property="og:description" content="Hello, this is my first post here in this blog."/>
+<meta property="og:title" content="Python Code Blocks"/>
+<meta property="og:description" content="Hi, let’s talk a bit aboutcode blocks in Python as it’s one of the main characteristics of the language."/>
 <meta property="og:locale" content="en_US"/>
-<meta property="og:url" content="https://jcemelanda.github.io/hello-world.html"/>
+<meta property="og:url" content="https://jcemelanda.github.io/python-code-blocks.html"/>
 <meta property="og:type" content="article"/>
-<meta property="article:published_time" content="2021-07-30 00:00:00+02:00"/>
+<meta property="article:published_time" content="2021-08-12 00:00:00+02:00"/>
 <meta property="article:modified_time" content=""/>
 <meta property="article:author" content="https://jcemelanda.github.io/author/julio-melanda.html">
-<meta property="article:section" content="General"/>
-<meta property="article:tag" content="hello"/>
+<meta property="article:section" content="Python"/>
 <meta property="article:tag" content="start"/>
+<meta property="article:tag" content="basics"/>
+<meta property="article:tag" content="code block"/>
 <meta property="og:image" content="/images/Julio.jpg">
 
-  <title>Julio Cesar Eiras Melanda &ndash; Hello World</title>
+  <title>Julio Cesar Eiras Melanda &ndash; Python Code Blocks</title>
 
 </head>
 
@@ -149,13 +150,13 @@
 <article class="single">
   <header>
           <div class="translations">
-    <a class="active" href="https://jcemelanda.github.io/hello-world.html">en</a>
-        <a href="https://jcemelanda.github.io/hello-world-pt_BR.html">pt_BR</a>
+    <a class="active" href="https://jcemelanda.github.io/python-code-blocks.html">en</a>
+        <a href="https://jcemelanda.github.io/python-code-blocks-pt_BR.html">pt_BR</a>
     </div>
 
-    <h1 id="hello-world">Hello&nbsp;World</h1>
+    <h1 id="python-code-blocks">Python Code&nbsp;Blocks</h1>
     <p>
-      Posted on 07-30-2021 in <a href="https://jcemelanda.github.io/category/general.html">General</a>
+      Posted on 08-12-2021 in <a href="https://jcemelanda.github.io/category/python.html">Python</a>
 
     </p>
   </header>
@@ -163,14 +164,54 @@
 
   <div>
     <p>Hi!</p>
-<p>It&#8217;s been a really long time since I wrote a blog post and it&#8217;s actually quite harder then I expected to get back to&nbsp;it.</p>
-<p>In this blog you should expect me to talk about technology. Whatever I find relevant in what I&#8217;m studying, as I love to teach, I&#8217;ll post some tutorials&nbsp;also.</p>
-<p>I hope you will enjoy the content and feel free to contact me in the comments&nbsp;:D</p>
+<p>Continuing the Python series, let&#8217;s talk about code&nbsp;blocks.</p>
+<p>For those who missed the first post, here&#8217;s a link:
+<a href="python-basics.html">Python&nbsp;Basics</a></p>
+<p>In the Python shell, we have two&nbsp;cursors.</p>
+<div class="highlight"><pre><span></span><code><span class="o">&gt;&gt;&gt;</span>
+<span class="o">...</span>
+</code></pre></div>
+
+<p>The first one we&#8217;ve already seen in the previous post, and it&#8217;s where you type Python commands in. The second is a code block indicator. There you insert commands that will be inside a code&nbsp;block.</p>
+<p>For example, when we do an if, conditional structure that will be explained in more detail in a next post, we can have the following in the&nbsp;shell</p>
+<div class="highlight"><pre><span></span><code><span class="o">&gt;&gt;&gt;</span> <span class="n">x</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="k">if</span> <span class="n">x</span> <span class="o">&lt;</span> <span class="mi">1</span><span class="p">:</span>
+<span class="o">...</span>     <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;x is less than 1&quot;</span><span class="p">)</span>
+<span class="o">...</span>
+<span class="n">x</span> <span class="ow">is</span> <span class="n">less</span> <span class="n">than</span> <span class="mi">1</span>
+</code></pre></div>
+
+<p>Now the explanation&nbsp;=]</p>
+<p>In the first line, we say that the variable x contains the value 0;
+Next, we compare the value contained in x with 1. When we finish a command with : the interpreter understands that this is a command that did not end at the end of that line, and that it is composed of more commands, so the secondary cursor <code>.. .</code>.</p>
+<p>So, many programmers used to other languages ​​must ask themselves where the curly braces are to determine the where the block starts and&nbsp;ends.</p>
+<p>In Python, blocks are determined by&nbsp;indentation.</p>
+<p>The lines that are inside the if, that is what should be executed if the comparison is true, must be&nbsp;indented.</p>
+<p>It is generally a convention in Python that we use 4 spaces for&nbsp;indentation.</p>
+<p>Returning to the subject, print(&#8220;x is less than 1&#8221;) is the command that should be executed if the comparison x &lt; 1 is true. So, this line is indented, and the interpreter knows that it should only execute it if x is less than&nbsp;1.</p>
+<p>When you give an enter at the end of this line, the interpreter shows you the secondary cursor again, because an if can have several commands inside it. As we&#8217;ll see later, the execution of an entire program can be inside an&nbsp;if.</p>
+<p>Thus, only after a second enter does the interpreter execute the command and display the&nbsp;result.</p>
+<p>So, to&nbsp;recap:</p>
+<ul>
+<li>Python blocks are defined by&nbsp;indentation</li>
+<li>Indentation must follow a pattern, preferably in all&nbsp;programs</li>
+<li>In the shell, indented blocks are preceded by secondary&nbsp;courses&#8230;</li>
+<li>A block indicates a piece of code that is inside another&nbsp;command</li>
+</ul>
+<p>In a python script like the parrot we wrote in the previous post, we did the same&nbsp;basically.</p>
+<div class="highlight"><pre><span></span><code><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Welcome to the parrot app. It will repeat everything you type below&quot;</span><span class="p">)</span>
+<span class="n">text</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&quot;=&gt; &quot;</span><span class="p">)</span>
+<span class="k">if</span> <span class="n">text</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;The parrot says&quot;</span><span class="p">,</span> <span class="n">text</span><span class="p">)</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;You should type something before you hit ENTER&quot;</span><span class="p">)</span>
+</code></pre></div>
   </div>
   <div class="tag-cloud">
     <p>
-      <a href="https://jcemelanda.github.io/tag/hello.html">hello</a>
       <a href="https://jcemelanda.github.io/tag/start.html">start</a>
+      <a href="https://jcemelanda.github.io/tag/basics.html">basics</a>
+      <a href="https://jcemelanda.github.io/tag/code-block.html">code block</a>
     </p>
   </div>
 
