@@ -1,5 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Julio Cesar Eiras Melanda - Python</title><link href="https://jcemelanda.github.io/" rel="alternate"></link><link href="https://jcemelanda.github.io/feeds/python.atom.xml" rel="self"></link><id>https://jcemelanda.github.io/</id><updated>2021-08-10T00:00:00+02:00</updated><entry><title>Python Basics</title><link href="https://jcemelanda.github.io/python-basics.html" rel="alternate"></link><published>2021-08-10T00:00:00+02:00</published><updated>2021-08-10T00:00:00+02:00</updated><author><name>Julio Melanda</name></author><id>tag:jcemelanda.github.io,2021-08-10:/python-basics.html</id><summary type="html">&lt;p&gt;Hello, this is a quick introduction to Python programing&amp;nbsp;language.&lt;/p&gt;</summary><content type="html">&lt;p&gt;Hello!&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Julio Cesar Eiras Melanda - Python</title><link href="https://jcemelanda.github.io/" rel="alternate"></link><link href="https://jcemelanda.github.io/feeds/python.atom.xml" rel="self"></link><id>https://jcemelanda.github.io/</id><updated>2021-08-12T00:00:00+02:00</updated><entry><title>Python Code Blocks</title><link href="https://jcemelanda.github.io/python-code-blocks.html" rel="alternate"></link><published>2021-08-12T00:00:00+02:00</published><updated>2021-08-12T00:00:00+02:00</updated><author><name>Julio Melanda</name></author><id>tag:jcemelanda.github.io,2021-08-12:/python-code-blocks.html</id><summary type="html">&lt;p&gt;Hi, let&amp;#8217;s talk a bit aboutcode blocks in Python as it&amp;#8217;s one of the main characteristics of the&amp;nbsp;language.&lt;/p&gt;</summary><content type="html">&lt;p&gt;Hi!&lt;/p&gt;
+&lt;p&gt;Continuing the Python series, let&amp;#8217;s talk about code&amp;nbsp;blocks.&lt;/p&gt;
+&lt;p&gt;For those who missed the first post, here&amp;#8217;s a link:
+&lt;a href="python-basics.html"&gt;Python&amp;nbsp;Basics&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;In the Python shell, we have two&amp;nbsp;cursors.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt;
+&lt;span class="o"&gt;...&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;The first one we&amp;#8217;ve already seen in the previous post, and it&amp;#8217;s where you type Python commands in. The second is a code block indicator. There you insert commands that will be inside a code&amp;nbsp;block.&lt;/p&gt;
+&lt;p&gt;For example, when we do an if, conditional structure that will be explained in more detail in a next post, we can have the following in the&amp;nbsp;shell&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;x&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;
+&lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;x&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+&lt;span class="o"&gt;...&lt;/span&gt;     &lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;x is less than 1&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="o"&gt;...&lt;/span&gt;
+&lt;span class="n"&gt;x&lt;/span&gt; &lt;span class="ow"&gt;is&lt;/span&gt; &lt;span class="n"&gt;less&lt;/span&gt; &lt;span class="n"&gt;than&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Now the explanation&amp;nbsp;=]&lt;/p&gt;
+&lt;p&gt;In the first line, we say that the variable x contains the value 0;
+Next, we compare the value contained in x with 1. When we finish a command with : the interpreter understands that this is a command that did not end at the end of that line, and that it is composed of more commands, so the secondary cursor &lt;code&gt;.. .&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;So, many programmers used to other languages ​​must ask themselves where the curly braces are to determine the where the block starts and&amp;nbsp;ends.&lt;/p&gt;
+&lt;p&gt;In Python, blocks are determined by&amp;nbsp;indentation.&lt;/p&gt;
+&lt;p&gt;The lines that are inside the if, that is what should be executed if the comparison is true, must be&amp;nbsp;indented.&lt;/p&gt;
+&lt;p&gt;It is generally a convention in Python that we use 4 spaces for&amp;nbsp;indentation.&lt;/p&gt;
+&lt;p&gt;Returning to the subject, print(&amp;#8220;x is less than 1&amp;#8221;) is the command that should be executed if the comparison x &amp;lt; 1 is true. So, this line is indented, and the interpreter knows that it should only execute it if x is less than&amp;nbsp;1.&lt;/p&gt;
+&lt;p&gt;When you give an enter at the end of this line, the interpreter shows you the secondary cursor again, because an if can have several commands inside it. As we&amp;#8217;ll see later, the execution of an entire program can be inside an&amp;nbsp;if.&lt;/p&gt;
+&lt;p&gt;Thus, only after a second enter does the interpreter execute the command and display the&amp;nbsp;result.&lt;/p&gt;
+&lt;p&gt;So, to&amp;nbsp;recap:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Python blocks are defined by&amp;nbsp;indentation&lt;/li&gt;
+&lt;li&gt;Indentation must follow a pattern, preferably in all&amp;nbsp;programs&lt;/li&gt;
+&lt;li&gt;In the shell, indented blocks are preceded by secondary&amp;nbsp;courses&amp;#8230;&lt;/li&gt;
+&lt;li&gt;A block indicates a piece of code that is inside another&amp;nbsp;command&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In a python script like the parrot we wrote in the previous post, we did the same&amp;nbsp;basically.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;Welcome to the parrot app. It will repeat everything you type below&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;text&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nb"&gt;input&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;=&amp;gt; &amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;text&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+    &lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;The parrot says&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;text&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="k"&gt;else&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+    &lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;You should type something before you hit ENTER&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;You can put this code in a &lt;code&gt;.py&lt;/code&gt; file and test&amp;nbsp;it.&lt;/p&gt;
+&lt;p&gt;I hope you liked the content. Again, feel free to leave any comments or questions&amp;nbsp;:D&lt;/p&gt;</content><category term="Python"></category><category term="start"></category><category term="basics"></category><category term="code block"></category></entry><entry><title>Python Basics</title><link href="https://jcemelanda.github.io/python-basics.html" rel="alternate"></link><published>2021-08-10T00:00:00+02:00</published><updated>2021-08-10T00:00:00+02:00</updated><author><name>Julio Melanda</name></author><id>tag:jcemelanda.github.io,2021-08-10:/python-basics.html</id><summary type="html">&lt;p&gt;Hello, this is a quick introduction to Python programing&amp;nbsp;language.&lt;/p&gt;</summary><content type="html">&lt;p&gt;Hello!&lt;/p&gt;
 &lt;p&gt;I think it could be a good thing to start with a set of posts teaching the very basics of&amp;nbsp;Python.&lt;/p&gt;
 &lt;p&gt;I won&amp;#8217;t teach you to install it because it&amp;#8217;s quite straightforward and if will be a different process for each operating system. So, just click here to find out how to &lt;a href="https://wiki.python.org/moin/BeginnersGuide/Download"&gt;install python to your system&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;After having it installed, you&amp;#8217;re going to need a nice code editor to use while learning. I recommend &lt;a href="https://code.visualstudio.com/download"&gt;VSCode&lt;/a&gt;. If you&amp;#8217;re already used to another code/text editor, feel free to use it&amp;nbsp;instead.&lt;/p&gt;

@@ -68,3 +68,7 @@ if text:
 else:
     print("You should type something before you hit ENTER")
 ``` 
+
+You can put this code in a `.py` file and test it.
+
+I hope you liked the content. Again, feel free to leave any comments or questions :D

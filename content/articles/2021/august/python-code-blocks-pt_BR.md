@@ -69,3 +69,7 @@ if texto:
 else:
     print("Você deveria digitar algo antes do ENTER")
 ```
+
+Você pode colocar este código em um arquivo `.py` e testá-lo.
+
+Espero que tenha gostado do conteúdo. Mais uma vez, fique à vontade para deixar comentários ou perguntas: D
