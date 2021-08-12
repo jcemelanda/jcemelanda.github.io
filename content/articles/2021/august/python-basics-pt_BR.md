@@ -10,7 +10,7 @@ Translation: true
 
 Olá!
 
-Acho que poderia ser bom coisa começar com uma série de postagens ensinando o básico do Python.
+Acho que poderia ser bom começar com uma série de postagens ensinando o básico do Python.
 
 Não vou ensiná-lo a instalá-lo porque é bastante simples e será um processo diferente para cada sistema operacional. Portanto, clique aqui para descobrir como [instalar o python em seu sistema](https://wiki.python.org/moin/BeginnersGuide/Download).
 
